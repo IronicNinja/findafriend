@@ -19,8 +19,11 @@ h1{
 #btns{
     position: relative;
     margin-top: 20%;
-    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-lg{
+    font-size: 25px;
 }
 
 #btn-1{

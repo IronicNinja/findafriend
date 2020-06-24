@@ -123,3 +123,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+STATICFILES_DIRS = [
+    "C:\\Users\\evanz\\Dev\\trydjango\\findfriend\\static", 
+]
