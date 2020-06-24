@@ -1,17 +1,35 @@
-h1{
-    margin-top: 10%;
-    text-align: center;
-    font: 400 30px Arial;
-    color: red;
-    line-height: 1.6em;
+.container{
+    border-style: solid;
+    border-color: red;
+    width: 1000px;
+    height: 650px;
+    border-width: 5px;
+    margin-top: 5%;
+    padding: 50px;
 }
 
-button{
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: red;
+    line-height: 1.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btns{
     position: relative;
-    margin-top: 5%;
-    display: inline-flex;
-    text-align: left;
-    font: 200 20px Arial;
-    color: black;
-    background-color: blue;
+    margin-top: 20%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn-1{
+    float:left;
+    margin-left: 15%;
+
+}
+
+#btn-2{
+    float:right;
+    margin-right: 15%;
 }
