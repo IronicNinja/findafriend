@@ -1,0 +1,10 @@
+.container{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+#form_top{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 1.6em;
+}
